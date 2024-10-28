@@ -1,0 +1,424 @@
+/* General page styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard container */
+.dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Header */
+.dashboard h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Intro section */
+.dashboard-intro {
+  padding: 15px;
+  background-color: #e0f7fa;
+  border-left: 5px solid #00bcd4;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Insights section */
+.dashboard-insights {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #4caf50;
+}
+
+.dashboard-insights h2 {
+  font-size: 1.6rem;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+
+.dashboard-insights ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.dashboard-insights li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Graphs container */
+.graphs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.graph {
+  width: 48%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.graph:hover {
+  transform: scale(1.02);
+}
+
+.graph h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Summary Section */
+.dashboard-summary {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #ffb300;
+}
+
+.dashboard-summary h2 {
+  font-size: 1.6rem;
+  color: #fb8c00;
+  margin-bottom: 10px;
+}
+
+.dashboard-summary p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Call to action section */
+.dashboard-cta {
+  background-color: #fce4ec;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #ec407a;
+}
+
+.dashboard-cta h2 {
+  font-size: 1.6rem;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.dashboard-cta p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  width: 50px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: #00bcd4;
+}
+
+/* Profile logo */
+.profile-logo {
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: transform 0.3s;
+}
+
+.profile-logo:hover {
+  transform: scale(1.1);
+  border-color: #00bcd4;
+}
+
+
+
+/* Explore page styling */
+.explore {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.explore-content h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Table styling */
+.explore-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.explore-table th,
+.explore-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.explore-table th {
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.explore-table td {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.explore-table tr:nth-child(even) {
+  background-color: #e9f7ef;
+}
+
+.explore-table tr:hover {
+  background-color: #d0eae0;
+  cursor: pointer;
+}
+
+.explore-table td:hover {
+  color: #4CAF50;
+}
+
+/* Forecast Button */
+.forecast-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.forecast-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Styles for forecast page */
+.forecast {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.forecast-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.forecast-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling for table */
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.forecast-table th, 
+.forecast-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.forecast-table th {
+  background-color: #343a40;
+  color: white;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.forecast-table td {
+  background-color: #f5f5f5;
+  font-family: 'Verdana', sans-serif;
+}
+
+.forecast-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.forecast-table tr:hover {
+  background-color: #d1e7dd;
+}
+
+.forecast-table th:hover {
+  background-color: #495057;
+}
+
+.forecast-table td {
+  transition: background-color 0.3s ease;
+}
+
+/* Button styling */
+.forecast-btn {
+  display: block;
+  width: 200px;
+  padding: 10px 0;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forecast-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Graph container */
+.graph-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Graph title */
+.graph-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Chart styling */
+.chartjs-render-monitor {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+/* Legend styling */
+.graph-legend {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.graph-legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.graph-legend-item span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #00b3e6;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .graph-container {
+    width: 100%;
+  }
+
+  .graph-title {
+    font-size: 20px;
+  }
+}
